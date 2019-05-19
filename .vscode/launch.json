@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",    // 本配置的名称，随便起
+            "type": "cppdbg",
+            "request": "launch",    // 如果调试的类型为附加进程，需将这里改为attach
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",    // 要调试的程序路径
+            "stopAtEntry": false,    // 是否在起点处停顿
+            "cwd": "${workspaceRoot}",
+            "externalConsole": true,    // 在外部控制台运行。若为false，则运行在VSCode自带的控制台中
+            "linux": {    // Linux 系统下的配置
+                "MIMode": "gdb"
+            },
+            "osx": {    // OS X系统下的配置
+                "MIMode": "lldb"
+            },
+            "windows": {    // Windows 系统下的配置
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb.exe"
+            }
+        }
+    ]
+}

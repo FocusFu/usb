@@ -1,0 +1,7 @@
+{
+    "version": "2.0.0",
+    "command": "gcc",
+    //"isShellCommand": true,    // 是否为Shell命令
+    "args": ["-g","${file}","-o","${fileDirname}/${fileBasenameNoExtension}.out"],
+    //"showOutput": "always"
+}
