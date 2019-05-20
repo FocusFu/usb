@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="872627c1-747e-43eb-8649-6c6c941cd00e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libusbdll.a" beforeDir="false" afterPath="$PROJECT_DIR$/libusbdll.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libusbdll.def" beforeDir="false" afterPath="$PROJECT_DIR$/libusbdll.def" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usbdll.dev" beforeDir="false" afterPath="$PROJECT_DIR$/usbdll.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usbdll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/usbdll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usbdll.layout" beforeDir="false" afterPath="$PROJECT_DIR$/usbdll.layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usbdll.o" beforeDir="false" afterPath="$PROJECT_DIR$/usbdll.o" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -110,7 +102,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,6 +203,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="159" width="1440" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

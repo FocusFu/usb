@@ -3,7 +3,15 @@ EXPORTS
 
 IMPORTS
 
-    libusb-1.0.dll._libusb_set_option
+    libusb-1.0.dll.GUID_DEVINTERFACE_LIBUSB0_FILTER
+    libusb-1.0.dll.GUID_DEVINTERFACE_USB_DEVICE
+    libusb-1.0.dll.GUID_DEVINTERFACE_USB_HOST_CONTROLLER
+    libusb-1.0.dll.GUID_DEVINTERFACE_USB_HUB
+    libusb-1.0.dll.INVALID_WINFD
+    libusb-1.0.dll.active_contexts_list
+    libusb-1.0.dll.active_contexts_lock
+    libusb-1.0.dll.discovered_devs_append
+    libusb-1.0.dll.htab_hash
     libusb-1.0.dll.libusb_alloc_streams
     libusb-1.0.dll.libusb_alloc_streams@16
     libusb-1.0.dll.libusb_alloc_transfer
@@ -177,3 +185,47 @@ IMPORTS
     libusb-1.0.dll.libusb_unref_device@4
     libusb-1.0.dll.libusb_wait_for_event
     libusb-1.0.dll.libusb_wait_for_event@8
+    libusb-1.0.dll.pCancelIoEx
+    libusb-1.0.dll.usb_api_backend
+    libusb-1.0.dll.usbdk_backend
+    libusb-1.0.dll.usbi_add_pollfd
+    libusb-1.0.dll.usbi_alloc_device
+    libusb-1.0.dll.usbi_backend
+    libusb-1.0.dll.usbi_clear_event
+    libusb-1.0.dll.usbi_close
+    libusb-1.0.dll.usbi_cond_broadcast
+    libusb-1.0.dll.usbi_cond_destroy
+    libusb-1.0.dll.usbi_cond_init
+    libusb-1.0.dll.usbi_cond_timedwait
+    libusb-1.0.dll.usbi_cond_wait
+    libusb-1.0.dll.usbi_connect_device
+    libusb-1.0.dll.usbi_create_fd
+    libusb-1.0.dll.usbi_default_context
+    libusb-1.0.dll.usbi_device_cache_descriptor
+    libusb-1.0.dll.usbi_disconnect_device
+    libusb-1.0.dll.usbi_get_config_index_by_value
+    libusb-1.0.dll.usbi_get_device_by_session_id
+    libusb-1.0.dll.usbi_handle_disconnect
+    libusb-1.0.dll.usbi_handle_transfer_cancellation
+    libusb-1.0.dll.usbi_handle_transfer_completion
+    libusb-1.0.dll.usbi_hotplug_deregister
+    libusb-1.0.dll.usbi_hotplug_match
+    libusb-1.0.dll.usbi_hotplug_notification
+    libusb-1.0.dll.usbi_io_exit
+    libusb-1.0.dll.usbi_io_init
+    libusb-1.0.dll.usbi_log
+    libusb-1.0.dll.usbi_log_v
+    libusb-1.0.dll.usbi_mutex_static_lock
+    libusb-1.0.dll.usbi_parse_descriptor
+    libusb-1.0.dll.usbi_pipe
+    libusb-1.0.dll.usbi_poll
+    libusb-1.0.dll.usbi_read
+    libusb-1.0.dll.usbi_remove_pollfd
+    libusb-1.0.dll.usbi_sanitize_device
+    libusb-1.0.dll.usbi_signal_event
+    libusb-1.0.dll.usbi_signal_transfer_completion
+    libusb-1.0.dll.usbi_write
+    libusb-1.0.dll.windows_error_str
+    libusb-1.0.dll.windows_force_sync_completion
+    libusb-1.0.dll.windows_version
+    libusb-1.0.dll.winusb_backend
