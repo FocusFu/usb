@@ -11,7 +11,7 @@ ResourceIncludes=
 MakeIncludes=
 Compiler=-DBUILDING_DLL=1_@@_
 CppCompiler=-DBUILDING_DLL=1_@@_
-Linker=libusb-1.0.a_@@_libusb-1.0.dll_@@_libusb-1.0.lib_@@_
+Linker=lib32/libusb-1.0.a_@@_lib32/libusb-1.0.dll_@@_lib32/libusb-1.0.dll.a_@@_
 IsCpp=0
 Icon=
 ExeOutput=

@@ -6,12 +6,12 @@ CC       = gcc.exe
 WINDRES  = windres.exe
 OBJ      = usbdll.o
 LINKOBJ  = usbdll.o
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc  libusb-1.0/libusb.h libusb-1.0/libusb-1.0.a libusb-1.0/libusb-1.0.dll libusb-1.0/libusb-1.0.lib
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc   libusb-1.0/libusb-1.0.a libusb-1.0/libusb-1.0.dll -m32
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
 BIN      = usbdll.dll
-CXXFLAGS = $(CXXINCS) -DBUILDING_DLL=1
-CFLAGS   = $(INCS) -DBUILDING_DLL=1
+CXXFLAGS = $(CXXINCS) -m32 -DBUILDING_DLL=1
+CFLAGS   = $(INCS) -m32 -DBUILDING_DLL=1
 RM       = rm.exe -f
 DEF      = libusbdll.def
 STATIC   = libusbdll.a
